@@ -27,8 +27,6 @@ def main(database):
 		
 		# Improved
 		key = newKeyGen.keygen_random()
-		print(key[3])
-		print(key[4])
 		plutus.process(key[0], key[2], key[3], database)
 		plutus.process(key[0], key[2], key[4], database)
 
@@ -42,6 +40,6 @@ if __name__ == '__main__':
 	database = plutus.read_database()
 
 	# for cpu in range(multiprocessing.cpu_count()):
-	for cpu in range(3):
+	for cpu in range(1):
 		multiprocessing.Process(target=main, args=(database, )).start()
-	# main(database)
+	main(database)

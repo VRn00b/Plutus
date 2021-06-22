@@ -40,6 +40,6 @@ if __name__ == '__main__':
 	database = plutus.read_database()
 
 	# for cpu in range(multiprocessing.cpu_count()):
-	for cpu in range(1):
-		multiprocessing.Process(target=main, args=(database, )).start()
+	# for cpu in range(1):
+		# multiprocessing.Process(target=main, args=(database, )).start()
 	main(database)

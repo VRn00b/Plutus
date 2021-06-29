@@ -4,6 +4,8 @@ A Bitcoin wallet collider that brute forces wallet addresses
 
 ## About This Fork
 
+Using a June 9th 2021 database from [AnasMK9's fork](https://github.com/AnasMK9/Plutus), and pruned the git history to reduce repo size.
+
 - `run_bruteforce.py` - random keys generated with [Plutus-Scroo](https://github.com/franzkruhm/Plutus-Scroo)'s keygen. Original keygen is present but unused.
 - `run_mnemonic.py` - addresses of wallets generated using [bitcoinlib](https://pypi.org/project/bitcoinlib/) based on a mnemonic strings.
 - `run_flood.py` - picks an inital random seed, and then checks neighboring seeds sequentially in both positive and negative direction.

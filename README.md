@@ -17,7 +17,7 @@ Using a June 9th 2021 database from [AnasMK9's fork](https://github.com/AnasMK9/
 $ sudo apt -y install git-all
 $ sudo apt -y install python3-pip
 $ sudo apt -y install libgmp3-dev
-$ git clone https://github.com/swift502/Plutus.git
+$ git clone https://github.com/VRn00b/Plutus.git
 $ cd Plutus
 $ pip3 install -r requirements.txt
 $ pip3 install ecdsa
